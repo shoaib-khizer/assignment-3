@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/laptop"
+            android:title="Laptop" />
+
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@drawable/mic"
+            android:title="Voice" />
+
+    </group>
+
+
+    <item android:title="Calculator">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_calculator"
+                    android:icon="@drawable/calculator"
+                    android:title="Open Calculator" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Quiz">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_quiz"
+                    android:icon="@drawable/quiz"
+                    android:title="Start Quiz" />
+            </group>
+        </menu>
+    </item>
+
+
+
+
+</menu>
